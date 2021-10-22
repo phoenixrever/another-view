@@ -7,7 +7,7 @@
 		<script type="text/javascript" src="../js/vue.js"></script>
 	</head>
 	<body>
-		<!-- 
+		<!--
 				computed和watch之间的区别：
 						1.computed能完成的功能，watch都可以完成。
 						2.watch能完成的功能，computed不一定能完成，例如：watch可以进行异步操作。
@@ -36,6 +36,7 @@
 			},
 			watch:{
 				firstName(val){
+				    //箭头函数没有自己的this 会找到vue的this 正常函数this就会是window
 					setTimeout(()=>{
 						console.log(this)
 						this.fullName = val + '-' + this.lastName

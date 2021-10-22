@@ -7,9 +7,10 @@
 		<script type="text/javascript" src="../js/vue.js"></script>
 	</head>
 	<body>
-		<!-- 
+		<!--
 				1.一个重要的内置关系：VueComponent.prototype.__proto__ === Vue.prototype
 				2.为什么要有这个关系：让组件实例对象（vc）可以访问到 Vue原型上的属性、方法。
+				总结 : 一句话 定义  Vue.prototype.x=1    vm.x  就能获取到 vueComponent.x  也能获取到
 		-->
 		<!-- 准备好一个容器-->
 		<div id="root">
@@ -26,8 +27,8 @@
 			name:'school',
 			template:`
 				<div>
-					<h2>学校名称：{{name}}</h2>	
-					<h2>学校地址：{{address}}</h2>	
+					<h2>学校名称：{{name}}</h2>
+					<h2>学校地址：{{address}}</h2>
 					<button @click="showX">点我输出x</button>
 				</div>
 			`,
@@ -53,25 +54,29 @@
 			components:{school}
 		})
 
-		
+
 		//定义一个构造函数
-		/* function Demo(){
+		 function Demo(){
 			this.a = 1
 			this.b = 2
 		}
 		//创建一个Demo的实例对象
 		const d = new Demo()
+        console.log(d)
+		console.log(Demo.prototype) //显示原型属性 类型java中的类 的静态变量
 
-		console.log(Demo.prototype) //显示原型属性
+		console.log(d.__proto__) //隐式原型属性   类型java中的类的对象
 
-		console.log(d.__proto__) //隐式原型属性
-
-		console.log(Demo.prototype === d.__proto__)
+		console.log(Demo.prototype === d.__proto__) //true
 
 		//程序员通过显示原型属性操作原型对象，追加一个x属性，值为99
 		Demo.prototype.x = 99
 
-		console.log('@',d) */
+        //实例对象获取原型(类的属性变量)
+        console.log('Demo.prototype@',Demo.prototype)
+        //d.__proto__  ==  d.x
+        console.log('d.__proto__@',d.__proto__.x)
+        console.log('d@',d.x)
 
 	</script>
 </html>

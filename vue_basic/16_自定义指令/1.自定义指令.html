@@ -6,15 +6,15 @@
 		<script type="text/javascript" src="../js/vue.js"></script>
 	</head>
 	<body>
-		<!-- 
+		<!--
 				需求1：定义一个v-big指令，和v-text功能类似，但会把绑定的数值放大10倍。
 				需求2：定义一个v-fbind指令，和v-bind功能类似，但可以让其所绑定的input元素默认获取焦点。
 				自定义指令总结：
 						一、定义语法：
 									(1).局部指令：
-												new Vue({															new Vue({
-													directives:{指令名:配置对象}   或   		directives{指令名:回调函数}
-												}) 																		})
+												new Vue({								new Vue({
+													directives:{指令名:配置对象}   或        directives{指令名:回调函数}
+												}) 									    })
 									(2).全局指令：
 													Vue.directive(指令名,配置对象) 或   Vue.directive(指令名,回调函数)
 
@@ -38,7 +38,7 @@
 			<input type="text" v-fbind:value="n">
 		</div>
 	</body>
-	
+
 	<script type="text/javascript">
 		Vue.config.productionTip = false
 
@@ -65,13 +65,16 @@
 				n:1
 			},
 			directives:{
-				//big函数何时会被调用？1.指令与元素成功绑定时（一上来）。2.指令所在的模板被重新解析时。
+				//big函数何时会被调用？1.指令与元素成功绑定时（一上来--bind）。2.指令所在的模板被重新解析(页面重新渲染render--update)时。
+
+                //v-big-number="n"
 				/* 'big-number'(element,binding){
 					// console.log('big')
 					element.innerText = binding.value * 10
 				}, */
+				//element 真实的dom元素, binding (通常用其中的value 也是自定义指令=后的值 v-big="n" 的n 值 )
 				big(element,binding){
-					console.log('big',this) //注意此处的this是window
+					console.log('big',this) //注意directives函数里的this都是window
 					// console.log('big')
 					element.innerText = binding.value * 10
 				},
@@ -80,7 +83,7 @@
 					bind(element,binding){
 						element.value = binding.value
 					},
-					//指令所在元素被插入页面时
+					//指令所在元素被插入页面时 此时操作element的 js 才能生效
 					inserted(element,binding){
 						element.focus()
 					},
@@ -91,6 +94,6 @@
 				}
 			}
 		})
-		
+
 	</script>
 </html>

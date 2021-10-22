@@ -53,7 +53,8 @@
 			methods: {
 				addSex(){
 					// Vue.set(this.student,'sex','男')
-					this.$set(this.student,'sex','男')
+                    //总结: vue.set 只能设置已经存在的属性 ,新增的属性是不行的
+                    this.$set(this.student,'sex','男')
 				}
 			}
 		})

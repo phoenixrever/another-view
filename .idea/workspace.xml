@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c88b4c1c-435c-4c8a-beb5-1bd6985f00b5" name="Default Changelist" comment="" />
+    <list default="true" id="c88b4c1c-435c-4c8a-beb5-1bd6985f00b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/08_计算属性/3.姓名案例_计算属性实现.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/08_计算属性/3.姓名案例_计算属性实现.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/08_计算属性/4.姓名案例_计算属性简写.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/08_计算属性/4.姓名案例_计算属性简写.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/09_监视属性/2.天气案例_监视属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/09_监视属性/2.天气案例_监视属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/09_监视属性/3.天气案例_深度监视.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/09_监视属性/3.天气案例_深度监视.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/09_监视属性/4.天气案例_监视属性_简写.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/09_监视属性/4.天气案例_监视属性_简写.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/09_监视属性/5.姓名案例_watch实现.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/09_监视属性/5.姓名案例_watch实现.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/12_列表渲染/10.总结Vue数据监测.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/12_列表渲染/10.总结Vue数据监测.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/12_列表渲染/5.更新时的一个问题.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/12_列表渲染/5.更新时的一个问题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/12_列表渲染/7.模拟一个数据监测.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/12_列表渲染/7.模拟一个数据监测.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/12_列表渲染/8.Vue.set的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/12_列表渲染/8.Vue.set的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/15_内置指令/2.v-html_指令.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/15_内置指令/2.v-html_指令.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/15_内置指令/3.v-cloak_指令.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/15_内置指令/3.v-cloak_指令.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/16_自定义指令/1.自定义指令.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/16_自定义指令/1.自定义指令.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/17_生命周期/3.总结生命周期.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/17_生命周期/3.总结生命周期.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/18_非单文件组件/1.基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/18_非单文件组件/1.基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_basic/18_非单文件组件/5.一个重要的内置关系.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/18_非单文件组件/5.一个重要的内置关系.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/01_src_分析脚手架/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/01_src_分析脚手架/main.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,85 +31,100 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue_basic/01_初识Vue/初识Vue.html">
+        <entry file="file://$PROJECT_DIR$/vue_basic/07_事件处理/2.事件修饰符.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="2356">
+              <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue_basic/02_Vue模板语法/模板语法.html">
+        <entry file="file://$PROJECT_DIR$/vue_basic/16_自定义指令/1.自定义指令.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue_basic/03_数据绑定/数据绑定.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="542">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue_basic/04_el与data的两种写法/el与data的两种写法.html">
+        <entry file="file://$PROJECT_DIR$/vue_basic/17_生命周期/2.分析生命周期.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            <state relative-caret-position="-1767" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue_basic/17_生命周期/3.总结生命周期.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue_basic/05_MVVM模型/Vue中的MVVM.html">
+        <entry file="file://$PROJECT_DIR$/vue_basic/18_非单文件组件/1.基本使用.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="496">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue_basic/06_数据代理/1.回顾Object.defineProperty方法.html">
+        <entry file="file://$PROJECT_DIR$/vue_basic/18_非单文件组件/2.几个注意点.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="527">
+              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue_basic/06_数据代理/2.何为数据代理.html">
+        <entry file="file://$PROJECT_DIR$/vue_basic/18_非单文件组件/4.VueComponent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="279">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="24" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue_basic/06_数据代理/3.Vue中的数据代理.html">
+        <entry file="file://$PROJECT_DIR$/vue_basic/18_非单文件组件/5.一个重要的内置关系.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="93">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="83" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue_test/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-326" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue_basic/07_事件处理/1.事件的基本使用.html">
+        <entry file="file://$PROJECT_DIR$/vue_test/01_src_分析脚手架/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-870" />
+            <state relative-caret-position="463">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -98,6 +132,23 @@
         <option value="$PROJECT_DIR$/vue_basic/01_初识Vue/初识Vue.html" />
         <option value="$PROJECT_DIR$/vue_basic/04_el与data的两种写法/el与data的两种写法.html" />
         <option value="$PROJECT_DIR$/vue_basic/06_数据代理/3.Vue中的数据代理.html" />
+        <option value="$PROJECT_DIR$/vue_basic/08_计算属性/3.姓名案例_计算属性实现.html" />
+        <option value="$PROJECT_DIR$/vue_basic/08_计算属性/4.姓名案例_计算属性简写.html" />
+        <option value="$PROJECT_DIR$/vue_basic/09_监视属性/2.天气案例_监视属性.html" />
+        <option value="$PROJECT_DIR$/vue_basic/09_监视属性/3.天气案例_深度监视.html" />
+        <option value="$PROJECT_DIR$/vue_basic/09_监视属性/4.天气案例_监视属性_简写.html" />
+        <option value="$PROJECT_DIR$/vue_basic/09_监视属性/5.姓名案例_watch实现.html" />
+        <option value="$PROJECT_DIR$/vue_basic/12_列表渲染/5.更新时的一个问题.html" />
+        <option value="$PROJECT_DIR$/vue_basic/12_列表渲染/7.模拟一个数据监测.html" />
+        <option value="$PROJECT_DIR$/vue_basic/12_列表渲染/8.Vue.set的使用.html" />
+        <option value="$PROJECT_DIR$/vue_basic/12_列表渲染/10.总结Vue数据监测.html" />
+        <option value="$PROJECT_DIR$/vue_basic/15_内置指令/2.v-html_指令.html" />
+        <option value="$PROJECT_DIR$/vue_basic/15_内置指令/3.v-cloak_指令.html" />
+        <option value="$PROJECT_DIR$/vue_basic/16_自定义指令/1.自定义指令.html" />
+        <option value="$PROJECT_DIR$/vue_basic/17_生命周期/3.总结生命周期.html" />
+        <option value="$PROJECT_DIR$/vue_basic/18_非单文件组件/1.基本使用.html" />
+        <option value="$PROJECT_DIR$/vue_basic/18_非单文件组件/5.一个重要的内置关系.html" />
+        <option value="$PROJECT_DIR$/vue_test/01_src_分析脚手架/main.js" />
       </list>
     </option>
   </component>
@@ -107,6 +158,7 @@
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -123,49 +175,19 @@
             <path>
               <item name="another-vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="another-vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue_basic" type="462c0819:PsiDirectoryNode" />
+              <item name="vue_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="another-vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="another-vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="01_初识Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vue_test" type="462c0819:PsiDirectoryNode" />
+              <item name="01_src_分析脚手架" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="another-vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="another-vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Vue模板语法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="another-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="another-vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="03_数据绑定" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="another-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="another-vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="04_el与data的两种写法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="another-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="another-vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="05_MVVM模型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="another-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="another-vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="06_数据代理" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="another-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="another-vue" type="462c0819:PsiDirectoryNode" />
-              <item name="vue_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="07_事件处理" type="462c0819:PsiDirectoryNode" />
+              <item name="vue_test" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +203,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/基础" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -214,12 +237,23 @@
       <option name="presentableId" value="Default" />
       <updated>1634612276881</updated>
       <workItem from="1634612278164" duration="305000" />
-      <workItem from="1634612826962" duration="7539000" />
+      <workItem from="1634612826962" duration="7795000" />
+      <workItem from="1634689501130" duration="8575000" />
+      <workItem from="1634777971640" duration="12772000" />
+      <workItem from="1634863831790" duration="12067000" />
     </task>
+    <task id="LOCAL-00001" summary="nothing to say">
+      <created>1634634017665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634634017665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7844000" />
+    <option name="totallyTimeSpent" value="41514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -247,67 +281,294 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nothing to say" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing to say" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vue.js" />
     <entry file="file://$PROJECT_DIR$/vue_basic/01_初识Vue/初识Vue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state>
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue_basic/02_Vue模板语法/模板语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue_basic/03_数据绑定/数据绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vue_basic/04_el与data的两种写法/el与data的两种写法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state>
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue_basic/05_MVVM模型/Vue中的MVVM.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state>
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue_basic/06_数据代理/1.回顾Object.defineProperty方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state>
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue_basic/06_数据代理/2.何为数据代理.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state>
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue_basic/06_数据代理/3.Vue中的数据代理.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state>
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue_basic/07_事件处理/1.事件的基本使用.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870" />
+        <state relative-caret-position="-1">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/03_数据绑定/数据绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/07_事件处理/3.键盘事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1116" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/08_计算属性/3.姓名案例_计算属性实现.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/09_监视属性/2.天气案例_监视属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/09_监视属性/3.天气案例_深度监视.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/09_监视属性/4.天气案例_监视属性_简写.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1829">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/09_监视属性/5.姓名案例_watch实现.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/10_绑定样式/绑定样式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2480">
+          <caret line="80" column="18" selection-start-line="77" selection-start-column="16" selection-end-line="80" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/11_条件渲染/条件渲染.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/08_计算属性/4.姓名案例_计算属性简写.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/09_监视属性/1.天气案例.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/12_列表渲染/2.key的原理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/12_列表渲染/5.更新时的一个问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/12_列表渲染/6.Vue监测数据改变的原理_对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/12_列表渲染/7.模拟一个数据监测.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/12_列表渲染/8.Vue.set的使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/12_列表渲染/9.Vue监测数据改变的原理_数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/12_列表渲染/10.总结Vue数据监测.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/13_收集表单数据/收集表单数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="20" column="49" selection-start-line="9" selection-start-column="12" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/14_过滤器/过滤器.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/15_内置指令/1.v-text_指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/15_内置指令/2.v-html_指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/15_内置指令/3.v-cloak_指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/15_内置指令/4.v-once_指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/15_内置指令/5.v-pre_指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/07_事件处理/2.事件修饰符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/16_自定义指令/1.自定义指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/17_生命周期/2.分析生命周期.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1767" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/17_生命周期/3.总结生命周期.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/18_非单文件组件/1.基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/18_非单文件组件/2.几个注意点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/18_非单文件组件/4.VueComponent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_basic/18_非单文件组件/5.一个重要的内置关系.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_test/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_test/01_src_分析脚手架/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

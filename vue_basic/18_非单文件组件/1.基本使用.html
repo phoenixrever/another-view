@@ -6,7 +6,7 @@
 		<script type="text/javascript" src="../js/vue.js"></script>
 	</head>
 	<body>
-		<!-- 
+		<!--
 			Vue中使用组件的三大步骤：
 					一、定义组件(创建组件)
 					二、注册组件
@@ -53,10 +53,14 @@
 				<div class="demo">
 					<h2>学校名称：{{schoolName}}</h2>
 					<h2>学校地址：{{address}}</h2>
-					<button @click="showName">点我提示学校名</button>	
+					<button @click="showName">点我提示学校名</button>
 				</div>
 			`,
 			// el:'#root', //组件定义时，一定不要写el配置项，因为最终所有的组件都要被一个vm管理，由vm决定服务于哪个容器。
+
+
+            //通过方法返回的也是深复制的全新的对象 各自在自己的作用域里面不会相互影响
+            //举个例子 你声明了 2个school 组件 各自的data值变化不会影响另外一个
 			data(){
 				return {
 					schoolName:'尚硅谷',
@@ -85,11 +89,11 @@
 				}
 			}
 		})
-		
+
 		//第一步：创建hello组件
 		const hello = Vue.extend({
 			template:`
-				<div>	
+				<div>
 					<h2>你好啊！{{name}}</h2>
 				</div>
 			`,
@@ -99,7 +103,7 @@
 				}
 			}
 		})
-		
+
 		//第二步：全局注册组件
 		Vue.component('hello',hello)
 
@@ -111,13 +115,34 @@
 			},
 			//第二步：注册组件（局部注册）
 			components:{
-				school,
-				student
+				school:school,
+				student:student
 			}
 		})
 
 		new Vue({
 			el:'#root2',
 		})
+
+        //为什么 data必须要是函数
+        //注:复制一个对象的时候有两种方式
+        //浅复制:  "="  浅复制  只是把地址的引用复制 ,通过任意一个引用都可以改变数据
+        //深拷贝: 直接拷贝对象的值 2个是不同的对象  ...运算符
+
+        const a = {a:1,b:2}
+        //浅复制 ,一个引用改变会影响另外一个引用指向的值
+        const x1=a
+        const x2=a
+        //... 运算符深复制对象 不会影响都是各自的值
+        const y={...a}
+
+        //通过方法返回的也是深复制的全新的对象 各自在自己的作用域里面不会相互影响
+        //举个例子 你声明了 2个school 组件 各自的data值变化不会影响另外一个
+        function data(){
+		    return {a:1,b:2}
+        }
+        const z1=data()
+        const z2=data()
+
 	</script>
 </html>
