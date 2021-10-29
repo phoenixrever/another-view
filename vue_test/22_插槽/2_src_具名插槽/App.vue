@@ -17,6 +17,7 @@
 
 		<Category title="电影">
 			<video slot="center" controls src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+            <!-- tempalte 没有结构的div  一旦用了这个  可以用下面的新写法指定插槽 since 2.6 -->
 			<template v-slot:footer>
 				<div class="foot">
 					<a href="http://www.atguigu.com">经典</a>

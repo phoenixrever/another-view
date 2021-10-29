@@ -5,10 +5,10 @@
 			<!-- 如下代码也能实现功能，但是不太推荐，因为有点违反原则，因为修改了props -->
 			<!-- <input type="checkbox" v-model="todo.done"/> -->
 			<span v-show="!todo.isEdit">{{todo.title}}</span>
-			<input 
-				type="text" 
-				v-show="todo.isEdit" 
-				:value="todo.title" 
+			<input
+				type="text"
+				v-show="todo.isEdit"
+				:value="todo.title"
 				@blur="handleBlur(todo,$event)"
 				ref="inputTitle"
 			>
@@ -43,11 +43,14 @@
 			//编辑
 			handleEdit(todo){
 				if(todo.hasOwnProperty('isEdit')){
+                    //改了属性值后 vue并没有重新解析模板 而是等方法里面所有代码都运行完成才会解析模板
+                    //防止方法里面多次修改属性 这样就需要不断解析模板
 					todo.isEdit = true
 				}else{
 					// console.log('@')
 					this.$set(todo,'isEdit',true)
 				}
+				//this.$nextTick 的回掉会在dom节点更新完毕后执行
 				this.$nextTick(function(){
 					this.$refs.inputTitle.focus()
 				})
@@ -101,7 +104,7 @@
 	li:hover{
 		background-color: #ddd;
 	}
-	
+
 	li:hover button{
 		display: block;
 	}

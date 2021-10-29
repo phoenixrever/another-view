@@ -21,7 +21,8 @@
 	// import {h} from 'vue'
 	export default {
 		name: 'App',
-		data() {
+        //尽量不要与Vue2.x配置混用
+        data() {
 			return {
 				sex:'男',
 				a:100
@@ -38,8 +39,10 @@
 				console.log(this.sayHello)
 			}
 		},
+
 		//此处只是测试一下setup，暂时不考虑响应式的问题。
-		async setup(){
+        //setup不能是一个async函数
+		 setup(){
 			//数据
 			let name = '张三'
 			let age = 18
@@ -65,7 +68,6 @@
 				test2,
 				a
 			}
-
 			//返回一个函数（渲染函数）
 			// return ()=> h('h1','尚硅谷')
 		}

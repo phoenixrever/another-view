@@ -37,6 +37,7 @@
 				person.job.type = 'UI设计师'
 				person.job.salary = '60K'
 				person.job.a.b.c = 999
+                //reactive 里面可以直接改变数组
 				person.hobby[0] = '学习'
 			}
 

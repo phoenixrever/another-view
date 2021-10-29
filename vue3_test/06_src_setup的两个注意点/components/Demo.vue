@@ -9,8 +9,8 @@
 	import {reactive} from 'vue'
 	export default {
 		name: 'Demo',
-		props:['msg','school'],
-		emits:['hello'],
+		props:['msg','school'],//不声明接收会有警告
+		emits:['hello'],//声明了才能context.emit事件
 		setup(props,context){
 			// console.log('---setup---',props)
 			// console.log('---setup---',context)

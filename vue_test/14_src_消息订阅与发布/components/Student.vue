@@ -22,6 +22,7 @@
 		methods: {
 			sendStudentName(){
 				// this.$bus.$emit('hello',this.name)
+				// 拥有数据的人发送消息数据
 				pubsub.publish('hello',666)
 			}
 		},

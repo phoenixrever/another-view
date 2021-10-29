@@ -10,6 +10,7 @@ new Vue({
 	el:'#app',
 	render: h => h(App),
 	beforeCreate() {
-		Vue.prototype.$bus = this //安装全局事件总线
+        //兄弟间通信 需要一个中间人 并且他需要有$on 方法 也就是vuecomponent 或者 vm 实例
+        Vue.prototype.$bus = this //安装全局事件总线
 	},
 })

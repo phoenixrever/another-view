@@ -16,7 +16,7 @@ Vue.use(vueResource)
 new Vue({
 	el:'#app',
 	render: h => h(App),
-	store,
+	store, //引入和使用了Vuex (store.js 文件里面引入)才有store 配置项
 	beforeCreate() {
 		Vue.prototype.$bus = this
 	}

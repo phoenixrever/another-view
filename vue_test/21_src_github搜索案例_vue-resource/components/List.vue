@@ -31,7 +31,7 @@
 		},
 		mounted() {
 			this.$bus.$on('updateListData',(dataObj)=>{
-				this.info = {...this.info,...dataObj}
+				this.info = {...this.info,...dataObj} //合并2个对象 重名的以后面的属性为主
 			})
 		},
 	}

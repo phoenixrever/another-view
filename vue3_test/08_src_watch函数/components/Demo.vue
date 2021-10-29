@@ -41,7 +41,7 @@
 				console.log('sum或msg变了',newValue,oldValue)
 			},{immediate:true}) */
 
-			/* 
+			/*
 				情况三：监视reactive所定义的一个响应式数据的全部属性
 						1.注意：此处无法正确的获取oldValue
 						2.注意：强制开启了深度监视（deep配置无效）
@@ -56,9 +56,9 @@
 			})  */
 
 			//情况五：监视reactive所定义的一个响应式数据中的某些属性
-			/* watch([()=>person.name,()=>person.age],(newValue,oldValue)=>{
+			 watch([()=>person.name,()=>person.age],(newValue,oldValue)=>{
 				console.log('person的name或age变化了',newValue,oldValue)
-			})  */
+			})
 
 			//特殊情况
 			/* watch(()=>person.job,(newValue,oldValue)=>{

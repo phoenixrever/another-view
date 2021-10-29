@@ -21,6 +21,7 @@
 			})
 		},
 		beforeDestroy() {
+		    //组件销毁之前删除绑定的事件
 			this.$bus.$off('hello')
 		},
 	}

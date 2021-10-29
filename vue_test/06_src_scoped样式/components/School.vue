@@ -17,7 +17,7 @@
 	}
 </script>
 
-<style scoped>
+<style lang="less">
 	.demo{
 		background-color: skyblue;
 	}

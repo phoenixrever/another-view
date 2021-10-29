@@ -35,13 +35,13 @@
 
 			//借助mapGetters生成计算属性，从getters中读取数据。（对象写法）
 			// ...mapGetters({bigSum:'bigSum'})
-			
+
 			//借助mapGetters生成计算属性，从getters中读取数据。（数组写法）
 			...mapGetters(['bigSum'])
 
 		},
 		methods: {
-			//程序员亲自写方法
+            //程序员亲自写 mutation commit
 			/* increment(){
 				this.$store.commit('JIA',this.n)
 			},
@@ -57,7 +57,7 @@
 
 			/* ************************************************* */
 
-			//程序员亲自写方法
+            //程序员亲自写  action dispatch
 			/* incrementOdd(){
 				this.$store.dispatch('jiaOdd',this.n)
 			},

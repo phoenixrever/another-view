@@ -34,6 +34,8 @@
 			console.log('******',x)
 
 			//返回一个对象（常用）
+            //不能用 name:ref(person.name) 这样相当于创建了一个新变量 相当于复制原来的person 而 toRef 相当于引用
+            //页面所有改动都是这个新变量,原来的person里面的数据并没有变
 			return {
 				person,
 				// name:toRef(person,'name'),

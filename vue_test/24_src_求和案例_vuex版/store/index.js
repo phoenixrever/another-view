@@ -7,6 +7,7 @@ Vue.use(Vuex)
 
 //准备actions——用于响应组件中的动作
 const actions = {
+    //context 上下文 阉割版的store
 	/* jia(context,value){
 		console.log('actions中的jia被调用了')
 		context.commit('JIA',value)
@@ -28,7 +29,7 @@ const actions = {
 		},500)
 	}
 }
-//准备mutations——用于操作数据（state）
+//准备mutations——用于操作数据（state） mutations中的方法一般大写
 const mutations = {
 	JIA(state,value){
 		console.log('mutations中的JIA被调用了')

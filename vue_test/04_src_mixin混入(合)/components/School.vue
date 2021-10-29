@@ -7,7 +7,7 @@
 
 <script>
 	//引入一个hunhe
-	// import {hunhe,hunhe2} from '../mixin'
+	// import {mixin} from '../mixin'
 
 	export default {
 		name:'School',
@@ -18,6 +18,6 @@
 				x:666
 			}
 		},
-		// mixins:[hunhe,hunhe2],
+		mixins:[mixin],
 	}
 </script>

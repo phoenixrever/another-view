@@ -1,4 +1,4 @@
-export const hunhe = {
+export const mixin = {
 	methods: {
 		showName(){
 			alert(this.name)
@@ -8,7 +8,7 @@ export const hunhe = {
 		console.log('你好啊！')
 	},
 }
-export const hunhe2 = {
+export const mixin2 = {
 	data() {
 		return {
 			x:100,
